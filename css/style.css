@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     /* TEST */
-    border: 1px solid green;
+     /* border: 1px solid green;  */
 }
 
 /* COMMON */
@@ -17,6 +17,7 @@ img{
 body{
     font-family: "Lato",sans-serif;
     color: white;
+    background-color: black;
 }
 
 
@@ -25,8 +26,20 @@ body{
 header{
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: flex-end;
     
 }
+
+.header-icons{
+    padding: 7px;
+    align-items:center;
+    border-radius: 5px;
+    /* test */
+    background-color:greenyellow;
+    
+}
+
 
 
 /* MAIN */
